@@ -1,3 +1,5 @@
+
+
 public class Code01 {
     public static class Node{
         int data;
@@ -62,6 +64,27 @@ public class Code01 {
         temp.next = newNode;
     }
 
+    public static int search(Node head, int key){
+        if(head == null){
+            return -1;
+        }
+        if(head.data == key){
+            return 0;
+        }
+
+        int idx = search(head.next, key);
+
+        if(idx == -1){
+            return -1;
+        }
+
+        return idx+1;
+    }
+
+    public static int recSearch(int key){
+        return search(head, key);
+    }
+
     public static void main(String[] args) {
         Code01 ll = new Code01();
         ll.addFirst(4);
@@ -70,6 +93,8 @@ public class Code01 {
         ll.addLast(9);
         ll.inPosition(3, 45);
         ll.print();
-        System.out.print("\nSize of LinkedList : " + ll.size);
+        System.out.println("\nSize of LinkedList : " + ll.size);
+
+        System.out.print("Number is find in the index no. = " + recSearch(8));
     }    
 }
