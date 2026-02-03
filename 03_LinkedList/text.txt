@@ -1,0 +1,56 @@
+{
+  "title": "Callback Hell - Treasure Cave Story",
+  "style": "2D cinematic digital illustration, semi-realistic cartoon style, dramatic lighting, educational storytelling, consistent character design, 16:9 aspect ratio",
+  "slides": [
+    {
+      "slide_number": 1,
+      "scene": "A brave treasure hunter standing at the entrance of a dark mysterious cave. The cave looks deep and unknown. Text overlay: 'A Treasure Hunter Begins His Journey...'",
+      "mood": "Adventurous, curious"
+    },
+    {
+      "slide_number": 2,
+      "scene": "At the cave entrance, a guard blocks the way holding a scroll with a puzzle written on it. The guard says: 'To enter, solve this puzzle.'",
+      "mood": "Challenging but exciting"
+    },
+    {
+      "slide_number": 3,
+      "scene": "The treasure hunter solving the puzzle confidently. The cave door opens behind the guard.",
+      "mood": "Progress, success"
+    },
+    {
+      "slide_number": 4,
+      "scene": "Inside the cave, another large ancient door appears with glowing text: 'Answer this riddle to continue.' The cave becomes slightly darker.",
+      "mood": "Increasing difficulty"
+    },
+    {
+      "slide_number": 5,
+      "scene": "The hunter answers the riddle and enters another chamber where a lever is mounted on a stone wall with text: 'Pull this lever to proceed.'",
+      "mood": "More complex, deeper"
+    },
+    {
+      "slide_number": 6,
+      "scene": "The hunter pulls the lever and another hidden door opens revealing an even darker tunnel. The cave walls look tighter and more confusing.",
+      "mood": "Tension rising"
+    },
+    {
+      "slide_number": 7,
+      "scene": "Multiple doors appear inside each other visually nested, like doors inside doors going deeper into darkness. The hunter looks confused and overwhelmed.",
+      "mood": "Confusion, complexity"
+    },
+    {
+      "slide_number": 8,
+      "scene": "The cave becomes very dark and maze-like. The hunter is deep inside and tiny compared to the cave. Text overlay: 'How deep am I now?'",
+      "mood": "Lost, overwhelmed"
+    },
+    {
+      "slide_number": 9,
+      "scene": "Split screen: Left side shows the deep cave with nested doors. Right side shows messy JavaScript code shifted heavily to the right with nested callbacks.",
+      "mood": "Realization moment"
+    },
+    {
+      "slide_number": 10,
+      "scene": "The cave scene fades into clean, straight-line JavaScript code labeled 'Async/Await' with bright light shining. The hunter now holds a glowing map and flashlight.",
+      "mood": "Clarity, solution, relief"
+    }
+  ]
+}

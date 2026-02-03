@@ -64,6 +64,7 @@ public class Code01 {
         temp.next = newNode;
     }
 
+    // search 
     public static int search(Node head, int key){
         if(head == null){
             return -1;
